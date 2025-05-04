@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Nobu Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="location.js" defer></script>
+    <script src="menu.js" defer></script>
+</head>
+
+<body>
+    <div class="initial-slide">
+        <div class="navigation">
+            <div id="navigation_menu" class="navigation_text" onclick="toggleMenu()">🍣 Menu</div>
+
+            <span class="navigation_text"> NOBU </span>
+            <button class="navigation_location" class="navigation_text" onclick="toggleLocation()">locations </button>
+        </div>
+
+        <div class="bar-location" id="locationPanel">
+            <div class="nobu-nav-stack">
+                <div class="nobu-nav-city">ROMA</div>
+                <div class="nobu-nav-city">MILANO</div>
+                <div class="nobu-nav-city">FIRENZE</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="bar-menu" id="menuPanel">
+            <div class="nobu-nav-stack">
+                <div class="nobu-nav-city">🍜 Ramen</div>
+                <div class="nobu-nav-city">🍣 Sushi</div>
+                <div class="nobu-nav-city">🥟 Gyoza</div>
+                <div class="nobu-nav-city">🍱 Bento Box</div>
+                <div class="nobu-nav-city">🍵 Matcha Tea</div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="card_section">
+        <div class="card">
+            <div class="card-image"></div>
+            <div class="card-text">
+                <div class="card-text-titolo"> Just opened! </div>
+                <div class="card-text-titolo-1"> NOBU NEW ORLEANS</div>
+                <div class="card-text-content"> Come and experience the ultimate in luxury dining at our newest
+                    location!</div>
+                <div class="card-text-finestra">
+                    <div class="test">Explore</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="internazionale_card_container">
+            <div class="section-name"> coming soon </div>
+            <div class="body-card">
+                <div class="internazionale_card_section_container">
+                    <div id="newCairo_img" class="internazionale_card_section_img"></div>
+                    <div class="n_section_1_text">
+                        <div class="card_text_caption"> spring 2025</div>
+                        <div class="card_text_title">
+                            <h6> Nobu New Cairo </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="internazionale_card_section_container">
+                    <div class="internazionale_card_section_img generic_asset_img"></div>
+                    <div class="n_section_2_text">
+                        <div class="card_text_caption"> TBD </div>
+                        <div class="card_text_title">
+                            <h6> Nobu Roma</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="internazionale_card_section_container">
+                    <div class="internazionale_card_section_img generic_asset_img"></div>
+                    <div class="n_section_3_text">
+                        <div class="card_text_caption"> 2026 </div>
+                        <div class="card_text_title">
+                            <h6> Nobu Madrid</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="n_appear_frame">
+            <div class="chef_card">
+                <img class="img_chef_card"
+                    src="https://images.summitmedia-digital.com/spotph/images/2025/03/25/chef-nobu-matsuhisa-1742869689.jpg"
+                    width="800" height="300">
+                <div class="context_chef_card">
+                    <div class="card_chef_title_1"> Featured </div>
+                    <div class="card_chef_title_2"> the chef's vision </div>
+                    <div class="card_chef_text">
+                        Nobu Matsuhisa is a globally-renowned chef, most well-known for his
+                        unique take on traditional Japanese cuisine with Peruvian ingredients.
+                    </div>
+                    <div class="card_chef_finestra"> show more </div>
+                   
+                    <div class = "show_more_card">
+                        <div class="show_more_card_container">
+                            <img src="https://www.noburestaurants.com/assets/card-media-files/Nobu-perspectives.jpg">
+                            <h3>Perspectives</h3>
+                            <p>Chef Nobu San combines Japanese and Peruvian flavors to create new and exciting dishes. One example is the yellowtail with jalapeño.</p>
+                          </div>
+                  
+                          <div class="show_more_card_container">
+                            <img src="https://www.noburestaurants.com/assets/card-media-files/Nobu-Global-Expansion.jpg"> 
+                            <h3>Global Expansion</h3>
+                            <p>With business partner Robert De Niro, Nobu expanded globally, opening restaurants in many cities around the world.</p>
+                          </div>
+                  
+                          <div class="show_more_card_container">
+                            <img src="https://www.noburestaurants.com/assets/card-media-files/Nobu-Authentic-Experience.jpg" >
+                            <h3>Authentic Experience</h3>
+                            <p>Nobu offers more than food—he creates a full experience with ambiance, service, and restaurant design.</p>
+                          </div>
+                  
+                          <div class="show_more_card_container">
+                            <img src="https://www.noburestaurants.com/assets/card-media-files/Nobu-Quality-and-Consistency.jpg" width="1024" height="646">
+                            <h3>Quality and Consistency</h3>
+                            <p>Nobu maintains high standards using top ingredients, great service, and consistent presentation in all his restaurants.</p>
+                          </div>
+                  
+                          <div class="show_more_card_container">
+                            <img src="https://www.noburestaurants.com/assets/card-media-files/Nobu-Continuous-Learning-and-Evolution.jpg" width="1024" height="646">
+                            <h3>Learning and Evolution</h3>
+                            <p>Nobu believes in always learning and improving. He supports his chefs in being creative and trying new ideas.</p>
+                          </div>
+                    
+                          <div class="card_chef_finestra"> show less </div>
+
+
+                    </div>
+                  
+                  
+
+                    
+                
+                       
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                </div>
+            </div>
+            <div style="margin: 40px ; "></div>
+            <div class="n_section">
+                <div class="n_card_section">
+                    <div class="container">
+                        <div class="n_card">
+                            <div class="n_card_media">
+                                <div class="n_card_info">
+                                    <div class="card_text_container">
+                                        <div class="card_text_content">
+                                            <div class="card_text_caption">
+                                                <p>THE GRAND CORDON</p>
+                                            </div>
+                                            <div class="card_text_title">
+                                                <p>NOBU-INSPIRED COCKTAIL COMPETITION</p>
+                                            </div>
+                                            <div class="card_text_body">
+                                                <p>
+                                                    The Grand Cordon is a quarterly competition among U.S. NOBU bar
+                                                    teams.
+                                                    The winning cocktail is featured on all U.S. menus.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <img src="https://images.squarespace-cdn.com/content/5dd58fd69e259436c30d0b95/1679333362174-1K9V39MVSAUJ0IFJY3ID/Matsuhisa-Martini-%282-of-3%29-%281%29-web.jpg?content-type=image%2Fjpeg"
+                                    width="40%" height="auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin: 40px ; "></div>
+
+                <div class="container">
+                    <div class="n_card">
+                        <div class="n_card_media">
+                            <div class="n_card_info">
+                                <div class="card_text_container">
+                                    <div class="card_text_content">
+                                        <div class="card_text_caption">
+                                            <p>FEATURED DISH</p>
+                                        </div>
+                                        <div class="card_text_title">
+                                            <p>Culinary Perfection</p>
+                                        </div>
+                                        <div class="card_text_body">
+                                            <p>
+                                                Nobu-style Beef Toban Yaki is a meticulously crafted dish
+                                                blending traditional Japanese and Peruvian flavors.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2020/news/12/31/nobu.jpg"
+                                width="50%" height="auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="n_card">
+                    <div class=" n_card_ media">
+                        <div class=" n_card_info ">
+                            <div class=" card_text_container">
+                                <div class="card_text_content">
+                                    <div class="card_text_caption">
+                                        <p> HAPPENING </p>
+                                    </div>
+                                    <div class="card_text_title">
+                                        <p> OPEN FOR LUNCH </p>
+                                    </div>
+                                    <div class=" card_text_body">
+                                        <p>
+                                            Nobu Downtown is open for lunch service! Enjoy all of your favorite
+                                            signature dishes as well as a number of new specials.
+
+                                            Monday - Friday
+
+                                            11:45am - 2:15pm
+                                        </p>
+                                        <div class="reservation_link">
+                                            <h3> reserve</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <img src="https://www.noburestaurants.com/assets/article-media-files/Nobu-Las-Vegas-v2.jpg"
+                        width=80%; height: auto;">
+
+                </div>
+            </div>
+
+            <div style="margin: 40px ; "></div>
+            <div class=" container">
+                <div class="down-bar">
+                    <div class="title">Insider Access to the World of Nobu </div>
+
+                    <div class="form-box">
+                        <div class="form-label">Your Email</div>
+                        <input type="text" placeholder=" your email">
+                    </div>
+
+                    <div class="form-box">
+                        <div class="form-label">Location</div>
+                        <select>
+                            <option> Select city </option>
+                            <option> milano</option>
+                            <option> Roma </option>
+                            <option> firenze </option>
+                        </select>
+                    </div>
+
+                    <button class="join-button">JOIN </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
